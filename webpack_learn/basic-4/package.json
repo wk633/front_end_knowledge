@@ -1,0 +1,16 @@
+{
+  "name": "basic-4",
+  "version": "1.0.0",
+  "description": "if follow the instruction to write `require(\"!style!css!./style.css\");` compile failed.",
+  "main": "content.js",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
