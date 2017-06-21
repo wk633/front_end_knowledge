@@ -1,1 +1,1 @@
-# front_end_knowledge
+# full_stack_knowledge
