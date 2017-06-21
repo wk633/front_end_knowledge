@@ -1,4 +1,5 @@
 var path = require('path');
+const SERVER_PORT = process.env.SERVER_PORT || 8080
 
 module.exports = {
   entry: "./entry.js",
@@ -13,7 +14,7 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 3001,
+    port: SERVER_PORT,
     inline: true, //auto refresh
     contentBase: path.join(__dirname, 'public')
   }
