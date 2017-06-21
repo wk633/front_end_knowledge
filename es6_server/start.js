@@ -1,2 +1,3 @@
 require('babel-register');
-require('./server.js');
+// require('./server.js');
+require('./express_server.js');
